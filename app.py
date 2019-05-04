@@ -57,5 +57,10 @@ def byYear():
     return 'Hello'
     # return pd.to_json(orient='records')
 
+@app.route('/')
+def hello():
+    return 'HelloWorld'
+    # return pd.to_json(orient='records')
+
 if __name__ == '__main__':
     app.run()
