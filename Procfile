@@ -1,1 +1,1 @@
-web: gunicorn app:TweetsAnalysisBackend
+web: gunicorn app
